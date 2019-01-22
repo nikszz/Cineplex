@@ -1,0 +1,101 @@
+@CHARSET "ISO-8859-1";
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    transition: background-color .5s;
+}
+
+.hbg {
+   
+    background: url("../img/the.jpg") no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    height: 150px;
+}
+
+#search {
+    width: 800px;
+    margin: 0px;
+}
+#search_text{
+    width: 300px;
+    padding: 15px 0 15px 20px;
+    font-size: 16px;
+    font-family: Montserrat, sans-serif;
+    border: 0 none;
+    border-radius: 5px 0px 0px 5px;
+    height: 45px;
+    margin-right: 0;
+    color: black;
+    outline: none;
+    background: #fffff;
+    float: left;
+    box-sizing: border-box;
+    
+}
+
+#search_button {
+    border: 0 none;
+    background: #ffffff url(../img/search.png) center no-repeat;
+    border-radius: 0px 5px 5px 0px;
+    width: 60px;
+    float: left;
+    padding: 0;
+    text-align: center;
+    height: 45px;
+    cursor: pointer;
+}
+
+#place{
+	width: 250px;
+    padding: 15px 0 15px 20px;
+    font-size: 16px;
+    font-family: Montserrat, sans-serif;
+    border: 0 none;
+    border-radius: 5px;
+    height: 45px;
+    margin-left: 30px;
+    color: black;
+    outline: none;
+    background: #fffff;
+    float: left;
+    box-sizing: border-box;
+}
+ 
+/*  Side nav CSS */
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: #111;
+  opacity:0.97;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+  text-decoration: none;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-right: 50px;
+}
+
